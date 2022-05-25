@@ -14,7 +14,7 @@ class App extends React.Component {
     render() {
 
         const { numbers } = this.state;
-        const test = [1 + ' ', + 10, 3 + ' ', 5 + ' '];
+        const test = [1 + ' ', + 10, 30 + ' ', 5 + ' '];
 
         return (
             <div className="App" >
