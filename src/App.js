@@ -15,24 +15,14 @@ class App extends React.Component {
 
         const { numbers } = this.state;
         // const test = [42 + ' -', 'Stan', + " " + 'Cat ' + "-" + 5 + ' '];
-        const test = ['Stan test tt'];
+        const test = ['Stan test deploy gh_pages'];
 
 
         return (
             <div className="App" >
                 <header className="App-header">
                     <h1>{test}</h1>
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
+
                 </header>
                 {console.log(numbers)}
 
